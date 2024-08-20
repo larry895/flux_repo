@@ -4,10 +4,10 @@ metadata:
   name: example-app-1
   namespace: flux-system
 spec:
-  interval: 15m
+  interval: 0m30s
   targetNamespace: default
   sourceRef:
     kind: GitRepository
     name: example-app-1
-  path: ./example-app-1/deploy/
+  path: ./example-app-1/deploy
   prune: true
