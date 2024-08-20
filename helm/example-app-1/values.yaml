@@ -1,0 +1,4 @@
+deployment:
+  image: "example-app-1"
+  tag: "0.0.3"
+
