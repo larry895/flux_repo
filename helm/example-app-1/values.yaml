@@ -1,4 +1,4 @@
 deployment:
-  image: "example-app-1"
+  image: "larpecs/test"
   tag: "0.0.3"
 

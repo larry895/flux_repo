@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmChart
+metadata:
+  name: my-helm-chart
+  namespace: flux-system
+spec:
+  chart: ./helm/example-app-1 # Path to the chart in the Git repository
+  sourceRef:
+    kind: GitRepository
+    name: example-app-1
+  interval: 1m
