@@ -7,4 +7,4 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/larry895/flux_repo
+  url: https://github.com/larry895/flux_repo/
