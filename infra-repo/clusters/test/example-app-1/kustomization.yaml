@@ -5,8 +5,9 @@ metadata:
   namespace: default
 spec:
   interval: 15m
-  path: ./example-app-1/deploy/
-  prune: true
+  targetNamespace: default
   sourceRef:
     kind: GitRepository
     name: example-app-1
+  path: ./example-app-1/deploy/
+  prune: true
