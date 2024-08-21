@@ -16,4 +16,4 @@ spec:
         interval: 5m
   valuesFrom:
     - kind: ConfigMap
-    - name: example-app-values
+      name: example-app-values
