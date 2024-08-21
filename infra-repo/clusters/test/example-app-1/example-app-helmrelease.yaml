@@ -13,7 +13,7 @@ spec:
         kind: GitRepository
         name: example-app-1
         namespace: flux-system
-      interval: 1m
+        interval: 1m
   values:
     image: "larpecs/test"
     tag: "0.0.3"
