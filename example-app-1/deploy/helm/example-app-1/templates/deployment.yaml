@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app: example-app-1-helm
-  replicas: 3
+  replicas: {{ .Values.replicaCount }}
   strategy:
     type: RollingUpdate
     rollingUpdate:
