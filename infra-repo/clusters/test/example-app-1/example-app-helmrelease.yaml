@@ -4,7 +4,7 @@ metadata:
   name: podinfo
   namespace: default
 spec:
-  interval: 1m
+  interval: 5m
   chart:
     spec:
       chart: ./example-app-1/deploy/helm/example-app-1
@@ -13,7 +13,7 @@ spec:
         kind: GitRepository
         name: example-app-1
         namespace: flux-system
-        interval: 1m
-  values:
-    image: "larpecs/test"
-    tag: "0.0.3"
+        interval: 5m
+  valuesFrom:
+    - kind: ConfigMap
+    - name: example-app-values
