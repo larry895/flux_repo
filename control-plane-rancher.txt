@@ -1,0 +1,2 @@
+CATTLE_AGENT_FALLBACK_PATH="/opt/rke2/bin" curl --insecure -fL https://192.168.0.90/system-agent-install.sh | sudo CATTLE_AGENT_FALLBACK_PATH="/opt/rke2/bin" sh -s - --server https://192.168.0.90 --label 'cattle.io/os=linux' --token x2d5dn2ngwwp22jjxrp26k2qxm9t5wp54qztl7zxdk7frk77jwcspb --ca-checksum 1762f3c28fb940e9a2a2de6eb31943154d52b5d7b542a029e13eb39730db17e5 --etcd --controlplane
+
